@@ -169,21 +169,7 @@ li {
   color: #55bbbb;
   font-size: 20px;
   border-bottom: solid 1px #55bbbb;
-  background: url(/img/check.svg)no-repeat left top;
-  position: relative;
   font-weight: bold;
-}
-
-.content__title-list--text::before {
-  content: "";
-  background: url(/img/check.svg);
-  background-size: cover;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  width: 20px;
-  height: 20px;
 }
 
 .content__text {
